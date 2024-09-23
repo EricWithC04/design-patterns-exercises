@@ -3,9 +3,10 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon",
-    "build": "rimraf ./dist && tsc",
-    "start": "npm run build && node ./dist/index.js"
+    "singleton": "ts-node src/singleton.ts",
+    "factory-method": "ts-node src/factory-method.ts",
+    "observer": "ts-node src/observer.ts",
+    "apadtador": "ts-node src/adaptador.ts"
   },
   "keywords": [],
   "author": "",
